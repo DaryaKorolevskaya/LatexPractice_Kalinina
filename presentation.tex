@@ -1,0 +1,162 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Hannover}
+\usecolortheme{default}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+%------------------------------------------------------------
+%This block of code defines the information to appear in the
+%Title page
+\title[Xiao Guide] %optional
+{Guide on Xiao in Genshin Impact}
+
+\author[Kalinina]
+{D.~I.~Kalinina}
+
+
+
+\date[LTXC 2022] 
+{LaTeX Course, July 2022}
+
+%End of title page configuration block
+%------------------------------------------------------------
+
+
+
+%------------------------------------------------------------
+%The next block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+%------------------------------------------------------------
+
+
+\begin{document}
+
+%The next statement creates the title page.
+\frame{\titlepage}
+
+
+%---------------------------------------------------------
+%This block of code is for the table of contents after
+%the title page
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+%---------------------------------------------------------
+
+
+\section{Weapon}
+
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{Weapon from Xiao}
+Xiao is quite picky about weapons, which can create some difficulties. Spears are best for him for crit chance or crit damage. In extreme cases, you can put him a spear to restore energy. Below are the best options in descending order. 
+\begin{itemize}
+    \item Primordial Jade Winged-Spear
+    \item Staff of Homa
+    \item Deathmatch
+    \item Blackcliff Pole
+    \item Skyward Spine
+    \item White Tassel
+\end{itemize}
+\end{frame}
+%---------------------------------------------------------
+\section{Artifacts} 
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{Artifacts}
+
+The most popular variant for our kitten is two items from sets of Emerald Green Shadow and Gladiator. The Vermillion Hereafter signature set is also suitable, but farming it is already more difficult
+\begin{center}
+     \includegraphics[width=0.3\linewidth]{verm.png}\quad\includegraphics[width=.33\linewidth]{glad.png}\quad\includegraphics[width=.33\linewidth]{emerald.png}
+          \end{center}
+\end{frame}
+%---------------------------------------------------------
+\section{Talents}
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{Talent's priority} 
+In Xiao's case, auto-attack will be the priority talent for leveling, since it is from it that the damage of attacks in the fall is scaled during the duration of the ultimate. After that, we pump the skill of the ultimate. At will, we pump the elemental skill to level 6-8.
+
+\end{frame}
+%---------------------------------------------------------
+\section{Squads}
+%---------------------------------------------------------
+%Example of the \pause command
+\begin{frame}
+\frametitle{Maim moments} 
+Ultimate Xiao is quite expensive, so you should take another anemo character as a battery with him. Xiao is also a hyper carry and wants to be on the field most of the time, so we pick up supports that buff him with attack power. For Xiao, it is desirable to have a shield, since with an ult he loses HP.
+
+\end{frame}
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{First Variant}
+ \begin{itemize}
+     \item Xiao
+     \item Kazuha
+     \item Xiang Ling
+     \item Bennet
+ \end{itemize}
+ There are pyro and anemo resonances. Stable maintenance of pyro status on enemies. Kazuha floods Xiao's energy, pulls enemies together and buffs Xiang Ling for bonus pyro damage. Bennet heals and boosts Xiao and Xiang Ling's attack power.
+\end{frame}
+
+\begin{frame}
+\frametitle{Second Variant}
+ \begin{itemize}
+     \item Xiao
+     \item Sucrose
+     \item Zhongli
+     \item Bennet
+ \end{itemize}
+Sucrose is just like a battery here. Zhongli gives a shield and cuts resistances. Bennet heals and buffs on attack.
+\end{frame}
+
+\begin{frame}
+\frametitle{Third Variant}
+ \begin{itemize}
+     \item Xiao
+     \item Venti
+     \item Geo main character
+     \item Bennet
+ \end{itemize}
+Venti generates energy well with both skill and ult. It also does good damage. The problem is that Xiao's falling hit only hits the bottom mobs in Venty's vortex. But if you put a barrel of geo main character under them... The option is more for a fan.
+\end{frame}
+    
+\section{Conclusion}
+
+%---------------------------------------------------------
+%Highlighting text
+\begin{frame}
+\frametitle{Conclusion}
+
+Here we have dealt with the main points. For more information, you can see the \href{https://www.youtube.com/watch?v=U_ow8r_vuzs}{guides on YouTube.} Remember that this kitten deserves the best!!! 
+
+\begin{center}
+     \includegraphics[width=0.3\linewidth]{xiao.png}
+          \end{center}
+\end{frame}
+%---------------------------------------------------------
+
+
+
+%---------------------------------------------------------
+
+
+
+\end{document}
